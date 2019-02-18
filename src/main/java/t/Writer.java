@@ -11,7 +11,6 @@ public class Writer extends Thread {
     @Override
     public void run(){
         while(true){
-            System.out.println("work");
             String input = queue.get();
             if (input == null)
                 System.out.println("empty");
