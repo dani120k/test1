@@ -4,4 +4,4 @@ mvn clean package
 
 Запустить
 
-java -jar target/t-1.0-SNAPSHOT.j
+java -jar target/t-1.0-SNAPSHOT.jar
